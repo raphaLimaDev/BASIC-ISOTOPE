@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BASIC ISOTOPE EXAMPLE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>BASIC ISOTOPE EXAMPLE</h1>
+
+        <ul class="filter">
+            <li><a href="#" data-filter="*" class="current">ALL</a></li>
+            <li><a href="#" data-filter=".blue">BLUE</a></li>
+            <li><a href="#" data-filter=".green">GREEN</a></li>
+        </ul>
+
+        <div class="filter-result">
+            <div class="box blue"></div>
+            <div class="box green"></div>
+            <div class="box blue"></div>
+            <div class="box green"></div>
+            <div class="box red"></div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="jquery.isotope.js"></script>
+        <script src="config.js"></script>
+        
+    </body>
+</html>

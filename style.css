@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.filter {
+    list-style: none; padding: 0; margin: 2em 0; text-align: center;
+}
+.filter li {
+    display: inline-block; margin: .6em .4em;
+}
+.filter li a {
+    color: #b8c7ca; font-size: .9em; padding: 5px 12px; border: 2px solid #D0DADC; border-radius: 4px; text-decoration: none;
+}
+.filter li a:hover {
+    color: #345; border-color: #345;
+}
+.filter a.current ,
+.filter a.current:hover {
+    color: #fff; background: #345; border-color: transparent;
+}
+
+.filter a { 
+    margin: 10px; 
+    color:#666;
+    text-decoration:none;
+}
+
+.filter a.current { 
+    font-weight:bold;
+}
+
+.filter-result{
+    margin: auto;
+    width: 50%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.blue{
+    background-color: #0000ff;
+}
+
+.green{
+    background-color: #00ff00;
+}
+
+.red{
+    background-color: #ff0000;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
